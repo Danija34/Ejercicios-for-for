@@ -1,9 +1,9 @@
-﻿Console.WriteLine("Se le mostrara un patron de numeros");
-for (int i = 1; i <= 5; i++)
+﻿Console.WriteLine("Se le mostrara un patron de numerico");
+for (int i = 1; i <= 4; i++)
 {
-    for (int j = 1; j <= 5; j++)
+    for (int j = 1; j <= i; j++)
     {
-    Console.Write(i + "");
+    Console.Write(i);
     }
     Console.WriteLine();
 }
