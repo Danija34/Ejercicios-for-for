@@ -1,10 +1,10 @@
 ﻿
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < 4; i++)
 {
 
-    for (int j = 0; j < 5; j++)
+    for (int j = 0; j < 6; j++)
     {
-        Console.Write("1 ");
+        Console.Write('*');
     }
     Console.WriteLine();
 }
