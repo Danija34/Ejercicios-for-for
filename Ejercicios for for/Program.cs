@@ -1,10 +1,11 @@
-﻿Console.WriteLine("Se le mostrara una tabla de multiplicar del 1 al 5 en pantalla");
-for (int i = 1; i <= 5; i++)
+﻿Console.WriteLine("Se le mostrara una matriz de 3x3 con numeros consecutivos del 1 al 9 en pantalla");
+int contador = 1;
+for (int i = 0; i < 3; i++)
 {
-    for (int j = 1; j <= 5; j++)
+    for (int j = 0; j < 3; j++)
     {
-        int resultado = i * j;
-    Console.Write("{0,4}",resultado);
+    Console.Write("{0,3}",contador);
+        contador++;
     }
     Console.WriteLine();
 }
